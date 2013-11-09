@@ -16,6 +16,7 @@ $("#myTags").tagit({
     singleFieldNode: null,
     tabIndex: null,
     placeholderText: null,
+    createTagOnBlur: true,
 
     // Events
     beforeTagAdded: function(event, ui) {
